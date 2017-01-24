@@ -1,3 +1,66 @@
 ../../../../../Desktop//eeb-177/class-assignments/classwork-Tuesday-1-24.txt
 ../../../../../Desktop//eeb-177/class-assignments/classwork-Thursday-1-19.txt
 ../../../../../Desktop//eeb-177/class-assignments/classwork-Tue-1-17.txt
+ 
+
+ 
+  600  grep Orchidaceae cep-taxa.txt | wc -l
+  601  grep -c Orchidaceae cep-taxa.txt 
+  602  grep falcon cep-taxa.txt 
+  603  grep Falcon cep-taxa.txt 
+  604  grep -n falxon cep-taxa.txt 
+  605  grep -i ara cep-taxa.txt 
+  606  man grep
+  607  grep -i -w ara cep-taxa.txt 
+  608  grep _B Cebus 3
+  609  grep -B Cebus 3
+  610  grep -B 3 -i -w cebus cep-taxa.txt 
+  611  grep -B -3 -i -w cebus cep-taxa.txt 
+  612  grep -n -i iguanas cep-taxa.txt 
+  613  grep -n iguanas cep-taxa.txt 
+  614  grep -n -i -w iguana cep-taxa.txt 
+  615  grep -n -i -w -v ara cep-taxa.txt 
+  616  grep -v -c ara cep-taxa.txt 
+  617  grep -v -c -i -iw ara cep-taxa.txt 
+  618  grep -v -c -i -w ara cep-taxa.txt 
+  619  fing .*
+  620  find .*
+  621  pwd
+  622  ls ../
+  623  find .* ../data
+  624  find ../data
+  625  find ~/Desktopm/eeb-177/CSB/unix/data
+  626  find /home/eeb177-student/Destop/eeb-177/CSB/unix/data
+  627  find /home/eeb177-student/Desktop/eeb-177/CSB/unix/data
+  628  find ~/Desktop/eeb-177/CSB/unix/data
+  629  find -d ../data/ -name "n20.txt"
+  630  find -d ../data/ -name "n30.txt"
+  631  find ../data/ -name "n30.txt"
+  632  find /home/eeb177-student/Desktop/eeb-177/class-assignments/
+  633  find ../../../
+  634  find ../../../../../Desktop// -iname "*ckasswork*"
+  635  find ../../../../../Desktop// -iname "'classwork'"
+  636  find ../../../../../Desktop// -iname "*classwork*"
+  637  find ../../../../../Desktop// -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  638  sudo gedit ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  639  cd
+  640  cd Desktop/eeb-177/class-assignments/
+  641  ls
+  642  ls -a
+  643  git add classwork-Tuesday-1-24.txt 
+  644  git commit -m "adding tuesday1/24 classwork"
+  645  git push
+  646  cd
+  647  cd Desktop
+  648  cd eeb-177/
+  649  cd CSB/
+  650  cd unix/
+  651  cd sandbox/
+  652  find ../data -maxdepth 1 "*.txt"
+  653  touch permssions.txt
+  654  ls -l
+  655  chmod u=rwx permssions.txt 
+  656  ls -l
+  657  history >> ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  658  sudo gedit ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  659  history 60 >> ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
