@@ -1,1 +1,91 @@
 classwork
+  630  cd
+  631  cd Desktop
+  632  cd eeb-177/class-assignments/
+  633  ls -a
+  634  ls -l
+  635  chmod u rwx
+  636  chmod u -w readme.txt
+  637  chmod u=rwx readme.txt 
+  638  ls -l
+  639  ls -a
+  640  gedit
+  641  ls
+  642  ls -l
+  643  ls/user/bin
+  644  ls/bin
+  645  /bin
+  646  chmod g+w,u+x readme.txt 
+  647  chmod g+w,u+x classwork-Tue-1-17.txt 
+  648  chmod g+w,u+x classwork-Tuesday-1-24.txt 
+  649  chmod g+w,u+x classwork-Thursday-1-19.txt 
+  650  chmod g+w,u+x classwork-Thursday-1-26.txt 
+  651  ls -l
+  652  chmod o-r readme.txt 
+  653  ls -l
+  654  chmod o-r classwork-Tue-1-17.txt 
+  655  chmod o-r classwork-Tuesday-1-24.txt 
+  656  chmod o-r classwork-Thursday-1-19.txt 
+  657  chmod o-r classwork-Thursday-1-26.txt 
+  658  ls -l
+  659  cd scripts/
+  660  mkdir scritps
+  661  rm scritps/
+  662  rm rf scritps/
+  663  rm -rf scritps/
+  664  ls 
+  665  mkdir scripts
+  666  cd scripts
+  667  mv ~/Desktop/eeb-177/class-assignments/dir.sh .^C
+  668  ls
+  669  cd ..
+  670  ls
+  671  cd scripts/
+  672  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+  673  ls
+  674  cd ..
+  675  ls
+  676  ls -a
+  677  gedit dir.sh
+  678  ls
+  679  cd
+  680  gedit .bash_profile
+  681  ls -a
+  682  $PATH
+  683  sudo reboot
+  684  $PATH
+  685  cd scripts
+  686  ls
+  687  mkdir scripts
+  688  cd scripts
+  689  ls
+  690  ls -a
+  691  ls -l
+  692  cd
+  693  cd Desktop
+  694  cd eeb-177/
+  695  ls
+  696  git clone https://github.com/lenaxxxx/class-assignments.git
+  697  ls
+  698  cd class-assignments/
+  699  ls
+  700  cd ..
+  701  rm -rf class-assignments/
+  702  ls
+  703  git clone https://github.com/lenaxxxx/class-assignments.git
+  704  ls
+  705  cd class-assignments/
+  706  ls
+  707  gedit classwork-Thursday-1-26.txt
+  708  git add classwork-Thursday-1-26.txt 
+  709  git commit -m "adding 1.26"
+  710  git push
+  711  mkdir scripts
+  712  ls
+  713  cd
+  714  ls
+  715  ls -a
+  716  gedit .profile
+  717  sudo reboot
+  718  history
+  719  history 90 >> ~/Desktop/eeb-177/class-assignments/classwork-Thursday-1-26.txt 
