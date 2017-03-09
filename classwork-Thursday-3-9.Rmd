@@ -1,0 +1,29 @@
+---
+title: "classwork-3-9-2017"
+author: "Linna Sun"
+date: "March 9, 2017"
+output: html_document
+---
+
+```{r}
+library(paleotree)
+library(paleobioDB)
+# graptOccPBDB <- canis
+# dev.new()
+# get data
+data(graptPBDB)
+
+head(occSpecies)
+
+# get species sorted occurences
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank = "species")
+# plot species occurences
+plotOccData(occSpecies, groupLabel = "Species" )
+# convert occurence data to "timelist" format
+graptTimeSpecies <- occData2timeList(occList = occSpecies)
+# plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+head(graptTimeSpecies)
+
+```
+
